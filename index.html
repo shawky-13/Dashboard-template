@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="media/dashboard.png">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css ">
+    <!-- for font awsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="page flex">
+        <div class="sidebar">
+            <div class="content flex align-center ">
+                <div class="head">
+                    <h1 class="p-relative">Shawky</h1>
+                </div>
+                <div class="links">
+                    <ul class="mmi-75">
+                        <li class="align-center active">
+                            <a class="at-d tt-c tc" href="index.html">
+                                <i class="fa-solid fa-sliders  fs-14"></i>
+                                <span>dashboard</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class="at-d tt-c tc" href="settings.html">
+                                <i class="fa-solid fa-gear  fs-14"></i>
+                                <span>settings</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class="at-d tt-c tc" href="profile.html">
+                                <i class="fa-solid fa-user  fs-14"></i>
+                                <span>profile</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class="at-d tt-c tc" href="projects.html">
+                                <i class="fa-solid fa-code-branch  fs-14"></i>
+                                <span>projects</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class=" tt-c at-d tc" href="courses.html">
+                                <i class="fa-solid fa-graduation-cap  fs-14"></i>
+                                <span>courses</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class="at-d tt-c tc" href="friends.html">
+                                <i class="fa-solid fa-circle-user  fs-14"></i>
+                                <span>friends</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class="at-d tt-c tc" href="files.html">
+                                <i class="fa-regular fa-file  fs-14"></i>
+                                <span>files</span>
+                            </a>
+                        </li>
+                        <li class="align-center">
+                            <a class="at-d tt-c tc" href="plans.html">
+                                <i class="fa-regular fa-credit-card fs-14"></i>
+                                <span>plans</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content ">
+            <div class="search p-20 flex">
+                <div class="input p-relative">
+                    <i class="fas fa-search fs-14"></i>
+                    <input type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icon flex align-center p-relative">
+                    <i class="fa-regular fa-bell"></i>
+                    <img class="w-40" src="media/avatar.png" alt="avatar">
+                </div>
+            </div>
+            <div class="dashboard p-20 bc">
+                <div class="head">
+                    <h1 class="tt-c">dashboard</h1>
+                    <div class="range">
+                        <span style="width:30%"></span>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="welcome flex br-10 p-relative bc-w">
+                        <div class="head flex">
+                            <div class="text">
+                                <h1 class="tt-c fs-25">welcome</h1>
+                                <span class="tc-span tt-c">shawky</span>
+                            </div>
+                            <img src="media/welcome.png" alt="welcome">
+                        </div>
+                        <img class="w-40 avatar" src="media/avatar.png" alt="avatar">
+                        <div class="info flex">
+                            <div class="text">
+                                <span class="tt-c block">shawky hafez</span>
+                                <span class="tt-c block fs-14 tc-span">front end student</span>
+                            </div>
+                            <div class="text">
+                                <span class="tt-c block">5</span>
+                                <span class="tt-c block fs-14 tc-span">projects</span>
+                            </div>
+                            <div class="text">
+                                <span class="tt-c block">$10</span>
+                                <span class="tt-c block fs-14 tc-span">earned</span>
+                            </div>
+                        </div>
+                        <a href="profile.html" class="tt-c fw-b br-5 fs-14">profile</a>
+                    </div>
+                    <div class="Quick-Draft p-relative br-10 bc-w ">
+                        <div class="head flex bc-w p-15 br-10">
+                            <div class="text">
+                                <h1 class="tt-c fs-25">Quick Draft</h1>
+                                <span class="tt-c block tc-span">Write A Draft For Your Ideas</span>
+                            </div>
+                        </div>
+                        <div class="info flex">
+                            <input class="br-5" type="text" placeholder="Tilte">
+                            <textarea class="br-5" placeholder="Your Thought"></textarea>
+                        </div>
+                        <span class="save tt-c fw-b br-5 fs-14">save</span>
+                    </div>
+                    <div class="Yearly-targets bc-w p-15 br-10 ">
+                        <div class="head">
+                            <div class="text">
+                                <h1 class="tt-c fs-25">Yearly-Targets</h1>
+                                <span class="tt-c block tc-span">Targets Of The Year</span>
+                            </div>
+                            <div class="content flex">
+                                <div class="box flex">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <div class="info flex">
+                                        <span class="tt-c block">money</span>
+                                        <span class="fw-b block">$20.000</span>
+                                        <div class="range p-relative"><span class="block" style="width:80%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box flex">
+                                    <i class="fa-solid fa-code"></i>
+                                    <div class="info flex">
+                                        <span class="tt-c block">Projects</span>
+                                        <span class="fw-b block">24</span>
+                                        <div class="range p-relative"><span class="block" style="width:55%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box flex">
+                                    <i class="fa-solid fa-user"></i>
+                                    <div class="info flex">
+                                        <span class="tt-c block">Team</span>
+                                        <span class="fw-b block">12</span>
+                                        <div class="range p-relative"><span class="block" style="width:75%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Tickets-Statistics bc-w br-10">
+                        <div class="head flex p-15">
+                            <div class="text">
+                                <h1 class="tt-c fs-25">Tickets Statistics</h1>
+                                <span class="tc-span tt-c">Everything About Support Tickets</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="info justify-center ">
+                                <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-blue"></i>
+                                <span class="tt-c block mb-10 fw-b fs-25">2500</span>
+                                <span class="tc-span block tt-c">total</span>
+                            </div>
+                            <div class="info justify-center">
+                                <i class="fa-solid fa-spinner fa-2x mb-10 c-green"></i>
+                                <span class="tt-c block mb-10 fw-b fs-25">500</span>
+                                <span class="tc-span block tt-c">Pending</span>
+                            </div>
+                            <div class="info justify-center">
+                                <i class="fa-regular fa-circle-check fa-2x c-orange mb-10"></i>
+                                <span class="tt-c block mb-10 fw-b fs-25">1900</span>
+                                <span class="tc-span block tt-c">Closed</span>
+                            </div>
+                            <div class="info justify-center">
+                                <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red"></i>
+                                <span class="tt-c block mb-10 fw-b fs-25">100</span>
+                                <span class="tc-span block tt-c">Deleted</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-news bc-w p-15 br-10">
+                        <div class="head">
+                            <h1 class="tt-c fs-25 ">Latest News</h1>
+                        </div>
+                        <div class="content">
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/news-01.png" alt="news-01">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">Created SASS Section</span>
+                                        <span class="tt-c tc-span block">New SASS Examples & Tutorials</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5">3 Days Ago</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/news-02.png" alt="news-02">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">Changed The Design</span>
+                                        <span class="tt-c tc-span block">A Brand New Website Design</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5">5 Days Ago</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/news-03.png" alt="news-03">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">Team Increased</span>
+                                        <span class="tt-c tc-span block">3 Developers Joined The Team</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5">7 Days Ago</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/news-04.png" alt="news-04">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">Added Payment Gateway</span>
+                                        <span class="tt-c tc-span block">Many New Payment Gateways Added</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5">9 Days Ago</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="latest-tasks p-15 bc-w br-10">
+                        <div class="head">
+                            <h1 class="tt-c  ">latest tasks</h1>
+                        </div>
+                        <div class="content">
+                            <div class="info justify-spacebetween pb-20 mb-10">
+                                <div class="box">
+                                    <span class="tt-c block mb-10 fw-b ">Record One New Video</span>
+                                    <span class="tt-c tc-span block">Record Python Create Exe Project</span>
+                                </div>
+                                <span class="tt-c block day br-5"><i class="fa-regular fa-trash-can  "></i></span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20 mb-10">
+                                <div class="box ">
+                                    <span class="tt-c block mb-10 fw-b ">Write Article</span>
+                                    <span class="tt-c tc-span block">Write Low Level vs High Level Languages</span>
+                                </div>
+                                <span class="tt-c block day br-5"><i class="fa-regular fa-trash-can  "></i></span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20 mb-10">
+                                <div class="box ">
+                                    <span class="tt-c block mb-10 fw-b ">Finish Project</span>
+                                    <span class="tt-c tc-span block">Publish Academy Programming Project</span>
+                                </div>
+                                <span class="tt-c block day br-5"><i class="fa-regular fa-trash-can  "></i></span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20 mb-10">
+                                <div class="box">
+                                    <span class="tt-c block mb-10 fw-b "><del>Attend The Meeting</del></span>
+                                    <span class="tt-c tc-span block">
+                                        <del>Attend The Project Business Analysia Meeting</del>
+                                    </span>
+                                </div>
+                                <span class="tt-c block day br-5"><i class="fa-regular fa-trash-can  "></i></span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20">
+                                <div class="box">
+                                    <span class="tt-c block mb-10 fw-b ">Finish Project</span>
+                                    <span class="tt-c tc-span block">Publish Academy Programming Project</span>
+                                </div>
+                                <span class="tt-c block day br-5"><i class="fa-regular fa-trash-can  "></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-search-items p-15 bc-w br-10">
+                        <div class="head">
+                            <h1 class="tt-c ">Top Search Items</h1>
+                        </div>
+                        <div class="content">
+                            <div class="info justify-spacebetween pb-20 mb-10">
+                                <span class="tt-c block  fw-b tc-span ">Keyword</span>
+                                <span class="tt-c tc-span block fw-b">Search Count</span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20">
+                                <span class="tt-c block fw-b ">Programming</span>
+                                <span class="tt-c block bc p-10 br-10 fs-14">220</span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20 ">
+                                <span class="tt-c block fw-b ">JavaScript</span>
+                                <span class="tt-c block bc p-10 br-10 fs-14">180</span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20">
+                                <span class="tt-c block fw-b ">PHP</span>
+                                <span class="tt-c block bc p-10 br-10 fs-14">160</span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20">
+                                <span class="tt-c block fw-b ">Code</span>
+                                <span class="tt-c block bc p-10 br-10 fs-14">145</span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20">
+                                <span class="tt-c block fw-b ">Design</span>
+                                <span class="tt-c block bc p-10 br-10 fs-14">110</span>
+                            </div>
+                            <div class="info justify-spacebetween pb-20">
+                                <span class="tt-c block fw-b ">Logic</span>
+                                <span class="tt-c block bc p-10 br-10 fs-14">95</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-news  uploads bc-w p-15 br-10">
+                        <div class="head">
+                            <h1 class="tt-c fs-25 ">Latest Uploads</h1>
+                        </div>
+                        <div class="content">
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/pdf.svg" alt="pdf.svg">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">my-file.pdf</span>
+                                        <span class="tt-c tc-span block">Elzero</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5 fs-14">2.9mb</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/avi.svg" alt="avi.svg">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">My-Video-File.avi</span>
+                                        <span class="tt-c tc-span block">Admin</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5 fs-14">4.9mb</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/psd.svg" alt="psd.svg">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">My-Psd-File.pdf</span>
+                                        <span class="tt-c tc-span block">Osama</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5 fs-14">4.5mb</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/zip.svg" alt="zip.svg">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">My-Zip-File.pdf</span>
+                                        <span class="tt-c tc-span block">User</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5 fs-14">8.9mb</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/dll.svg" alt="dll.svg">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">My-DLL-File.pdf</span>
+                                        <span class="tt-c tc-span block">Admin</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5 fs-14">4.9mb</span>
+                            </div>
+                            <div class="info justify-spacebetween">
+                                <div class="box justify-spacebetween">
+                                    <img class="br-10" src="media/eps.svg" alt="eps.svg">
+                                    <div class="text">
+                                        <span class="tt-c block mb-10 fw-b ">My-Eps-File.pdf</span>
+                                        <span class="tt-c tc-span block">Designer</span>
+                                    </div>
+                                </div>
+                                <span class="tt-c block day br-5 fs-14">8.9mb</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="last-project-process bc-w p-15 br-10">
+                        <div class="head">
+                            <h1 class="tt-c fs-25 ">Last project process</h1>
+                        </div>
+                        <div class="content justify-spacebetween">
+                            <div class="info">
+                                <span class="block tt-c mp-20 pb-20 pl-50">got the project</span>
+                                <span class="block tt-c mp-20 pb-20 pl-50">Started The Project</span>
+                                <span class="block tt-c mp-20 pb-20  pl-50">The Project About To Finish</span>
+                                <span class="block tt-c mp-20 pb-20 pl-50">Test The Project</span>
+                                <span class="block tt-c pl-50 pb-20 ">Finish The Project & Get Money</span>
+                            </div>
+                            <img src="media/project.png" alt="project">
+                        </div>
+                    </div>
+                    <div class="reminders bc-w p-15 br-10">
+                        <div class="head">
+                            <h1 class="tt-c fs-25 ">reminders</h1>
+                        </div>
+                        <div class="content">
+                            <div class="info pl-50 mp-20 p-relative">
+                                <span class="block tt-c mb-10 fw-b ">Check My Tasks List</span>
+                                <span class="block tt-c mp-20 tc-span fs-14">28/09/2022 - 12:00am</span>
+                            </div>
+                            <div class="info pl-50 mp-20 p-relative">
+                                <span class="block tt-c mb-10 fw-b ">Check My Projects</span>
+                                <span class="block tt-c mp-20 tc-span fs-14">29/10/2022 - 12:00am</span>
+                            </div>
+                            <div class="info pl-50 mp-20 p-relative">
+                                <span class="block tt-c mb-10 fw-b ">Call All My Clients</span>
+                                <span class="block tt-c mp-20 tc-span fs-14">05/11/2022 - 12:00am</span>
+                            </div>
+                            <div class="info pl-50 mp-20 p-relative">
+                                <span class="block tt-c mb-10 fw-b ">Finish The Development Workshop</span>
+                                <span class="block tt-c mp-20 tc-span fs-14">20/12/2022 - 12:00am</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-post bc-w p-15 br-10">
+                        <div class="main-head">
+                            <h1 class="tt-c fs-25 ">latest post</h1>
+                        </div>
+                        <div class="content">
+                            <div class="head flex mb-10 ">
+                                <img src="media/avatar.png" alt="avatar">
+                                <div class="text">
+                                    <span class="block tt-c mb-10 fw-b ">shawky mshrif</span>
+                                    <span class="block tt-c mp-20 tc-span fs-14 fw-b">About 3 Hours Ago</span>
+                                </div>
+                            </div>
+                            <div class="paragraph mp-20 pb-20">
+                                <p>
+                                    You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The
+                                    Time, But You Can't Fool All Of The
+                                    People All Of The Time.
+                                </p>
+                            </div>
+                            <div class="icons justify-spacebetween">
+                                <div class="one">
+                                    <i class="fa-regular fa-heart tc-span"></i>
+                                    <span class="tt-c fw-b tc-span">1.8k</span>
+                                </div>
+                                <div class="one">
+                                    <i class="fa-regular fa-comments tc-span"></i>
+                                    <span class="tt-c fw-b tc-span">500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-media bc-w p-15 br-10">
+                        <div class="main-head">
+                            <h1 class="tt-c fs-25 ">Social Media Stats</h1>
+                        </div>
+                        <div class="content">
+                            <div class="info justify-spacebetween mb-10">
+                                <div class="first justify-center">
+                                    <i class="fa-brands fa-twitter fa-2x justify-center c-white"></i>
+                                    <span class="block tt-c c-blue fw-b">90K Followers</span>
+                                </div>
+                                <a class="tt-c p-10" href="#">follow</a>
+                            </div>
+                            <div class="info justify-spacebetween mb-10">
+                                <div class="first justify-center">
+                                    <i class="fa-brands fa-facebook-f fa-2x justify-center c-white"></i>
+                                    <span class="block tt-c c-blue fw-b">2M Like</span>
+                                </div>
+                                <a class="tt-c p-10" href="#"> Like</a>
+                            </div>
+                            <div class="info justify-spacebetween mb-10">
+                                <div class="first justify-center">
+                                    <i class="fa-brands fa-youtube fa-2x justify-center c-white"></i>
+                                    <span class="block tt-c c-red fw-b">1M Subs</span>
+                                </div>
+                                <a class="tt-c p-10" href="#">subscribe</a>
+                            </div>
+                            <div class="info justify-spacebetween mb-10">
+                                <div class="first justify-center">
+                                    <i class="fa-brands fa-linkedin fa-2x justify-center c-white"></i>
+                                    <span class="block tt-c c-blue fw-b">70K Followers</span>
+                                </div>
+                                <a class="tt-c p-10" href="#">follow</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects bc-w p-15 br-10 mt-20">
+                    <div class="main-head">
+                        <h1 class="tt-c fs-25 ">projects</h1>
+                    </div>
+                    <div class="table p-relative">
+                        <table class="bc">
+                            <tr class="head t-left p-10">
+                                <th>Name</th>
+                                <th>Finish Date</th>
+                                <th>Client</th>
+                                <th>Price</th>
+                                <th>Team</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr class="content bc-w p-15 ">
+                                <td>Ministry Wikipedia</td>
+                                <td>10 May 2022</td>
+                                <td>Ministry</td>
+                                <td>$5300</td>
+                                <td>
+                                    <img class="w-40 br-50 trans2-border" src="media/team-01.png" alt="team-01">
+                                    <img class="w-40 br-50 trans-border" src="media/team-02.png" alt="team-02">
+                                    <img class="w-40 br-50 trans3-border" src="media/team-03.png" alt="team-03">
+                                    <img class="w-40 br-50 trans4-border" src="media/team-05.png" alt="team-05">
+                                </td>
+                                <td>
+                                    <span class="tt-c bc-orange p-5 c-white br-5 w-fit">Pending</span>
+                                </td>
+                            </tr>
+                            <tr class="content bc-w">
+                                <td>Elzero Shop</td>
+                                <td>12 Oct 2021</td>
+                                <td>Elzero Company</td>
+                                <td>$1500</td>
+                                <td>
+                                    <img class="w-40 br-50 trans2-border" src="media/team-01.png" alt="team-01">
+                                    <img class="w-40 br-50 trans-border" src="media/team-03.png" alt="team-03">
+                                    <img class="w-40 br-50 trans3-border" src="media/team-05.png" alt="team-05">
+                                </td>
+                                <td>
+                                    <span class="tt-c bc-blue p-5 c-white br-5 w-fit">in progress</span>
+                                </td>
+                            </tr>
+                            <tr class="content bc-w">
+                                <td>Bouba App</td>
+                                <td>05 Sep 2021</td>
+                                <td>Bouba</td>
+                                <td>$800</td>
+                                <td>
+                                    <img class="w-40 br-50 trans2-border" src="media/team-02.png" alt="team-02">
+                                    <img class="w-40 br-50 trans-border" src="media/team-03.png" alt="team-03">
+                                </td>
+                                <td>
+                                    <span class="tt-c bc-green p-5 c-white br-5 w-fit">completed</span>
+                                </td>
+                            </tr>
+                            <tr class="content bc-w">
+                                <td>Mahmoud Website</td>
+                                <td>22 May 2021</td>
+                                <td>Mahmoud</td>
+                                <td>$600</td>
+                                <td>
+                                    <img class="w-40 br-50 trans2-border" src="media/team-03.png" alt="team-03">
+                                    <img class="w-40 br-50 trans-border" src="media/team-04.png" alt="team-04">
+                                </td>
+                                <td>
+                                    <span class="tt-c bc-green p-5 c-white br-5 w-fit">completed</span>
+                                </td>
+                            </tr>
+                            <tr class="content bc-w">
+                                <td>Sayed Website</td>
+                                <td>24 May 2021</td>
+                                <td>Sayed</td>
+                                <td>$300</td>
+                                <td>
+                                    <img class="w-40 br-50 trans2-border" src="media/team-02.png" alt="team-02">
+                                    <img class="w-40 br-50 trans-border" src="media/team-04.png" alt="team-04">
+                                </td>
+                                <td>
+                                    <span class="tt-c bc-red p-5 c-white br-5 w-fit">Rejected</span>
+                                </td>
+                            </tr>
+                            <tr class="content bc-w">
+                                <td>Arena Application</td>
+                                <td>01 Mar 2021</td>
+                                <td>Arena Company</td>
+                                <td>$2600</td>
+                                <td>
+                                    <img class="w-40 br-50 trans2-border" src="media/team-01.png" alt="team-01">
+                                    <img class="w-40 br-50 trans-border" src="media/team-02.png" alt="team-02">
+                                    <img class="w-40 br-50 trans3-border" src="media/team-03.png" alt="team-03">
+                                    <img class="w-40 br-50 trans4-border" src="media/team-04.png" alt="team-04">
+                                </td>
+                                <td>
+                                    <span class="tt-c bc-green p-5 c-white br-5 w-fit">completed</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
